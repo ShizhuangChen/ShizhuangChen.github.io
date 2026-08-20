@@ -1,18 +1,12 @@
 # Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your entire site, values
-# which you are expected to set up once and rarely need to edit after that.
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# `jekyll serve -l -H localhost`. If you change this file, please restart the 
-# server process.
 
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default" # The available themes options are "default", "air", "sunrise", "mint", "dirt" and "contrast"
-title                    : "Your Name / Site Title"
+title                    : "Shizhuang Chen"
 title_separator          : "-"
-name                     : &name "Your Name"
-description              : &description "Your Name's academic portfolio"   # Update this with a general description of your site, this is the default if not overridden by a page
+name                     : &name "Shizhuang Chen"
+description              : &description "Shizhuang Chen's academic portfolio"   # Update this with a general description of your site, this is the default if not overridden by a page
 url                      : https://ShizhuangChen.github.io # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
                                                            # or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
@@ -24,34 +18,34 @@ repository               : "ShizhuangChen/ShizhuangChen.github.io"
 author:
   # Biographic information
   avatar           : "profile.png"
-  name             : "Your Sidebar Name"
-  pronouns         : # example: "she/her"  
-  bio              : "Short biography for the left-hand sidebar"
-  location         : "Earth"
-  employer         : "Red Brick University"
-  uri              : # URL
-  email            : "none@example.org" 
+  name             : "Shizhuang Chen"
+  pronouns         : "he/him"  # example: "she/her"
+  bio              : "PhD student in Computer Science and Technology at the National University of Defense Technology (NUDT)."
+  location         : "Changsha, China"
+  employer         : "National University of Defense Technology"
+  uri              : "https://ShizhuangChen.github.io" # URL
+  email            : "liamcsz@163.com" 
 
   # Academic websites
-  academia         : # URL
-  arxiv            : # URL - Update with the correct link to your profile
+  academia         : "https://ShizhuangChen.github.io" # URL
+  arxiv            : "https://ShizhuangChen.github.io" # URL - Update with the correct link to your profile
   googlescholar    : "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
-  inspire-hep      : # URL
-  impactstory      : # URL
+  inspire-hep      : "https://ShizhuangChen.github.io" # URL
+  impactstory      : "https://ShizhuangChen.github.io" # URL
   orcid            : "https://orcid.org/yourorcidurl"
-  semantic         : # URL
-  ssrn             : # URL
+  semantic         : "https://ShizhuangChen.github.io" # URL
+  ssrn             : "https://ShizhuangChen.github.io" # URL
   pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
-  researchgate     : # URL
-  scopus           : # URL
-  zotero           : # URL
+  researchgate     : "https://ShizhuangChen.github.io" # URL
+  scopus           : "https://ShizhuangChen.github.io" # URL
+  zotero           : "https://ShizhuangChen.github.io" # URL
 
 
   # Repositories and software development
   bitbucket        : # Username - Update with your username on the site
   codepen          : # Username
   dribbble         : # Username
-  github           : "academicpages"
+  github           : "Shizhuang Chen"
   kaggle           : # Username  
   stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
 
@@ -190,6 +184,7 @@ exclude:
   - package.json*
   - Rakefile
   - README
+  - README.md
   - tmp
   - vendor
 keep_files:

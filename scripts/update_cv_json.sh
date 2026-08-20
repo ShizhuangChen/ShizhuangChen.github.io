@@ -1,7 +1,15 @@
 #!/bin/bash
 
+# =============================================================================
+# Preferred entry point for regenerating the CV JSON.
+#
+# _data/cv.json is a GENERATED ARTIFACT — never edit it by hand, edits will be
+# overwritten on the next run. If you changed the CV content, update
+# _pages/cv.md first, then run this script to regenerate it:
+#   bash scripts/update_cv_json.sh
+# =============================================================================
+
 # Script to update the CV JSON file from the markdown CV
-# Author: Yuan Chen
 
 # Set the base directory to the repository root
 BASE_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"

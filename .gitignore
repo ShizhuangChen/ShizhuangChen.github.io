@@ -1,23 +1,48 @@
 # Ignore the contents of the _site directory and other cache directories
 _site/
 .sass-cache/
+.jekyll-cache/
+.jekyll-metadata
 
 # Ignore the directory for local files during development
 local/
 
-# Ignore the Gemfile that is generated
+# Ignore the Gemfile.lock that is generated (GitHub Pages pins its own gem versions)
 Gemfile.lock
 
 # Ignore files created by npm
-node_modules
+node_modules/
 package-lock.json
+npm-debug.log*
+yarn-error.log*
 
 # Ignore the vendor file at root level and bundle for alternative installation
 /vendor/
 .bundle/
 
+# Ignore Python / Jupyter artifacts (markdown_generator, talkmap)
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# Ignore logs and editor temporary files
+*.log
+*.tmp
+*.swp
+*.swo
+*~
+
 # Ignore folders related to IDEs
 .vscode/
+.idea/
+*.iml
 
-# Ignore files created by MacOS
+# Ignore files created by MacOS / Windows
 .DS_Store
+Thumbs.db
+Desktop.ini
+
+# Ignore the CLAUDE.md file
+CLAUDE.md

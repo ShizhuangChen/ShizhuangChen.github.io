@@ -1,7 +1,11 @@
 #!/usr/bin/env python3
 """
 Script to convert markdown CV to JSON format
-Author: Yuan Chen
+
+NOTE: _data/cv.json is a GENERATED ARTIFACT — never edit it by hand, edits will
+be overwritten on the next run. Update _pages/cv.md, then regenerate via the
+shell wrapper (preferred) instead of invoking this script directly:
+    bash scripts/update_cv_json.sh
 """
 
 import os
